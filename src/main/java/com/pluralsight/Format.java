@@ -12,6 +12,7 @@ public class Format {
         System.out.println("What is  your last name: ");
         String last = input.nextLine();
 
+        System.out.println("Good morning.");
         System.out.println(formatName(first,last));
     }
 
